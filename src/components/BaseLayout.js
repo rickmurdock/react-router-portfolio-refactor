@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import { Link } from 'react-router-dom';
-import Radium from 'radium';
+// import Radium from 'radium';
 
 export default class BaseLayout extends Component {
   render(){
@@ -22,13 +22,13 @@ export default class BaseLayout extends Component {
     }
 
     let linkStyle = {
-      border: "1px solid green",
+      border: "1px solid #E5B13A",
       borderRadius: 90,
       padding: "15px",
       marginRight: "10px",
       textDecoration: "none",
-      color: "white",
-      backgroundColor: "green",
+      color: "#E5B13A",
+      backgroundColor: "black",
       
     }
 
@@ -58,7 +58,6 @@ export default class BaseLayout extends Component {
           {this.props.children}
         </div>
         <footer style={footerStyle}>
-          {/*By Rick*/}
         </footer>
       </div>
     );
