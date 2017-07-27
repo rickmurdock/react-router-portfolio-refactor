@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 // import Radium from 'radium';
 
 export default class BaseLayout extends Component {
@@ -44,13 +44,19 @@ export default class BaseLayout extends Component {
         <div style={headerStyle}>
           <ul style={ulStyle}>
             <li style={liStyle}>
-              <Link to="/" style={linkStyle}>Home</Link>
+              <NavLink exact to="/" style={linkStyle} activeStyle={{color:"red"}}>Home</NavLink>
             </li>
             <li style={liStyle}>
-              <Link to="/about" style={linkStyle}>About</Link>
+              <NavLink to="/about" style={linkStyle} activeStyle={{color:"red"}}>About</NavLink>
             </li>
             <li style={liStyle}>
-              <Link to="/portfolio" style={linkStyle}>Portfolio</Link>
+              <NavLink to="/portfolio" style={linkStyle} activeStyle={{color:"red"}}>Portfolio</NavLink>
+            </li>
+            <li style={liStyle}>
+              <NavLink to="/contact" style={linkStyle} activeStyle={{color:"red"}}>Contact</NavLink>
+            </li>
+            <li style={liStyle}>
+              <NavLink to="/references" style={linkStyle} activeStyle={{color:"red"}}>References</NavLink>
             </li>
           </ul>
         </div >

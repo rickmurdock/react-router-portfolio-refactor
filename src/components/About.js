@@ -8,6 +8,7 @@ export default class About extends Component {
       fontFamily: "Acme",
       fontSize: 25,
       textAlign: "center",
+      paddingLeft: 0,
       listStyle: "none"
     };
 
