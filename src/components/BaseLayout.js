@@ -44,7 +44,7 @@ export default class BaseLayout extends Component {
         <div style={headerStyle}>
           <ul style={ulStyle}>
             <li style={liStyle}>
-              <Link to="/home" style={linkStyle}>Home</Link>
+              <Link to="/" style={linkStyle}>Home</Link>
             </li>
             <li style={liStyle}>
               <Link to="/about" style={linkStyle}>About</Link>
