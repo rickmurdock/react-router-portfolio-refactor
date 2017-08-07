@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import { NavLink } from 'react-router-dom';
-// import Radium from 'radium';
 
 export default class BaseLayout extends Component {
   render(){
@@ -18,7 +17,6 @@ export default class BaseLayout extends Component {
 
     let liStyle = {
       display: "inline",
-      marginTop: "15px"
     }
 
     let linkStyle = {
@@ -29,14 +27,13 @@ export default class BaseLayout extends Component {
       textDecoration: "none",
       color: "#E5B13A",
       backgroundColor: "black",
-      
     }
 
     let footerStyle = {
       textAlign: "center",
       backgroundColor: "lightgray",
       height: 40,
-      margin: "0 auto"
+      margin: "auto"
     }
 
     return(
@@ -60,10 +57,11 @@ export default class BaseLayout extends Component {
             </li>
           </ul>
         </div >
-        <div style={{backgroundColor: "black", height: "80vh"}}>
+        <div style={{backgroundColor: "black", height: "100vh"}}>
           {this.props.children}
         </div>
-        <footer style={footerStyle}>
+        <footer className="navbar navbar-fixed-bottom" style={footerStyle}>
+          <p style={{margin:15}}>© 2017 Kylo Ren. All rights reserved.</p>
         </footer>
       </div>
     );

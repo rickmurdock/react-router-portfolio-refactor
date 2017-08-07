@@ -14,11 +14,12 @@ export default class About extends Component {
 
     return(
       <div>
-        <h1 style={{textAlign: "center", color: "#E5B13A", fontFamily: "Acme"}}>About Kylo Ren</h1>
+        <h1 style={{textAlign: "center", color: "#E5B13A", fontFamily: "Acme", padding:10, marginTop:0}}>About Kylo Ren</h1>
         <br />
         <div style={{textAlign:"center"}}>
           <img src={require('../images/kyloRen2.jpg')} alt="" style={{width: "40%", borderRadius: "30%"}}/>
         </div>
+        <br/>
         <ul style={liStyle}>
           <li>He's evil</li>
           <li>He's the grandson of Darth Vader</li>

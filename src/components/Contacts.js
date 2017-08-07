@@ -14,9 +14,9 @@ const Contacts = () => {
   return(
     <div style={{backgroundSize:"100%", 
                 backgroundRepeat: "no-repeat", 
-                height:"80vh", 
+                height:"100vh", 
                 backgroundImage: `url(${require('../images/kyloRen6.jpg')})`}}>
-      <h1 style={{textAlign: "center", color: "#E5B13A", fontFamily: "Acme"}}>Contact Kylo Ren</h1>
+      <h1 style={{textAlign: "center", color: "#E5B13A", fontFamily: "Acme", padding:10, marginTop:0}}>Contact Kylo Ren</h1>
       <br/>
       <ul style={liStyle}>
         <li>Home: A Galaxy Far Far Away</li>
