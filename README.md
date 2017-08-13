@@ -4,7 +4,7 @@ Using the project from the previous day, refactor your components to encompass t
 
 ---
 
-View the finished project: [http://kyloren.surge.sh/](http://kyloren.surge.sh/)
+View the finished project: http://kyloren.surge.sh/
 
 ---
 
