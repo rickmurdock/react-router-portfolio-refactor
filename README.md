@@ -2,6 +2,12 @@
 
 In this project, you will use your knowledge of React and React Router to create a mock portfolio website.
 
+---
+
+View the finished project: [http://kyloren.surge.sh/](http://kyloren.surge.sh/)
+
+---
+
 ## Getting Started  
 
 * To get started you will need to use `create-react-app` to quickly scaffold a project. You should migrate your components into a `components` folder in the `src` directory and the styles into a `styles` folder in the `src` directory. Link up all pages to make sure they working and test using `npm run start` in the console, use Ctrl+c to exit.
